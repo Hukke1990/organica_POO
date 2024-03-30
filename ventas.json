@@ -1,0 +1,302 @@
+{
+  "ventas": [
+    {
+      "id_venta": 1,
+      "id_cliente": "C0046",
+      "nombre_cliente": "gaston bordet",
+      "fecha": "18/01/2024 02:40:58",
+      "descuento_%": 10.0,
+      "descuento_aplicado": 26490.53,
+      "total_venta": 238414.77,
+      "total_venta_descuento": 26490.53,
+      "productos": [
+        {
+          "id_producto": "P0089",
+          "nombre": "galletitas",
+          "descripcion": "dulce",
+          "precio": 26490.53,
+          "categoria": "surtido",
+          "proveedor": "trio",
+          "fecha": "2023-11-20",
+          "cantidad_disponible": 2132,
+          "cantidad_venta": 10
+        }
+      ]
+    },
+    {
+      "id_venta": 2,
+      "id_cliente": "C0046",
+      "nombre_cliente": "gaston bordet",
+      "fecha": "18/01/2024 03:20:33",
+      "descuento_%": 10.0,
+      "descuento_aplicado": 1142.0,
+      "total_venta": 10278.0,
+      "total_venta_descuento": 1142.0,
+      "productos": [
+        {
+          "id_producto": "P0072",
+          "nombre": "pan rustico",
+          "descripcion": "pan multicereal con semillas",
+          "precio": 571.0,
+          "categoria": "pan y arinas",
+          "proveedor": "vida sana",
+          "fecha": "2023-11-12",
+          "cantidad_disponible": 20,
+          "cantidad_venta": 10
+        },
+        {
+          "id_producto": "P0052",
+          "nombre": "pan de arina integral",
+          "descripcion": "pan multicereal con semillas de lino",
+          "precio": 571.0,
+          "categoria": "pan y arinas",
+          "proveedor": "vida sana",
+          "fecha": "2023-11-12",
+          "cantidad_disponible": 100,
+          "cantidad_venta": 10
+        }
+      ]
+    },
+    {
+      "id_venta": 3,
+      "id_cliente": "C0046",
+      "nombre_cliente": "gaston bordet",
+      "fecha": "18/01/2024 03:22:41",
+      "descuento_%": 10.0,
+      "descuento_aplicado": 2855.0,
+      "total_venta": 25695.0,
+      "total_venta_descuento": 2855.0,
+      "productos": [
+        {
+          "id_producto": "P0052",
+          "nombre": "pan de arina integral",
+          "descripcion": "pan multicereal con semillas de lino",
+          "precio": 571.0,
+          "categoria": "pan y arinas",
+          "proveedor": "vida sana",
+          "fecha": "2023-11-12",
+          "cantidad_disponible": 100,
+          "cantidad_venta": 50
+        }
+      ]
+    },
+    {
+      "id_venta": 4,
+      "id_cliente": "C0046",
+      "nombre_cliente": "gaston bordet",
+      "fecha": "18/01/2024 03:23:37",
+      "descuento_%": 10.0,
+      "descuento_aplicado": 2855.0,
+      "total_venta": 25695.0,
+      "total_venta_descuento": 2855.0,
+      "productos": [
+        {
+          "id_producto": "P0052",
+          "nombre": "pan de arina integral",
+          "descripcion": "pan multicereal con semillas de lino",
+          "precio": 571.0,
+          "categoria": "pan y arinas",
+          "proveedor": "vida sana",
+          "fecha": "2023-11-12",
+          "cantidad_disponible": 100,
+          "cantidad_venta": 50
+        }
+      ]
+    },
+    {
+      "id_venta": 5,
+      "id_cliente": "C0046",
+      "nombre_cliente": "gaston bordet",
+      "fecha": "18/01/2024 03:31:10",
+      "descuento_%": 10.0,
+      "descuento_aplicado": 7204.7,
+      "total_venta": 64842.3,
+      "total_venta_descuento": 7204.7,
+      "productos": [
+        {
+          "id_producto": "P0023",
+          "nombre": "almendra noin pareil 20/22 x 1kg",
+          "descripcion": "sin descripcion",
+          "precio": 7204.7,
+          "categoria": "alimentos",
+          "proveedor": "buena vida",
+          "fecha": "2023-11-12",
+          "cantidad_disponible": 60,
+          "cantidad_venta": 10
+        }
+      ]
+    },
+    {
+      "id_venta": 6,
+      "id_cliente": "C0053",
+      "nombre_cliente": "monica silvana lezcano",
+      "fecha": "18/01/2024 03:31:37",
+      "descuento_%": 10.0,
+      "descuento_aplicado": 7204.7,
+      "total_venta": 64842.3,
+      "total_venta_descuento": 7204.7,
+      "productos": [
+        {
+          "id_producto": "P0023",
+          "nombre": "almendra noin pareil 20/22 x 1kg",
+          "descripcion": "sin descripcion",
+          "precio": 7204.7,
+          "categoria": "alimentos",
+          "proveedor": "buena vida",
+          "fecha": "2023-11-12",
+          "cantidad_disponible": 40,
+          "cantidad_venta": 10
+        }
+      ]
+    },
+    {
+      "id_venta": 7,
+      "id_cliente": "C0053",
+      "nombre_cliente": "monica silvana lezcano",
+      "fecha": "18/01/2024 03:32:55",
+      "descuento_%": 10.0,
+      "descuento_aplicado": 7204.7,
+      "total_venta": 64842.3,
+      "total_venta_descuento": 7204.7,
+      "productos": [
+        {
+          "id_producto": "P0023",
+          "nombre": "almendra noin pareil 20/22 x 1kg",
+          "descripcion": "sin descripcion",
+          "precio": 7204.7,
+          "categoria": "alimentos",
+          "proveedor": "buena vida",
+          "fecha": "2023-11-12",
+          "cantidad_disponible": 60,
+          "cantidad_venta": 10
+        }
+      ]
+    },
+    {
+      "id_venta": 8,
+      "id_cliente": "C0053",
+      "nombre_cliente": "monica silvana lezcano",
+      "fecha": "18/01/2024 03:33:59",
+      "descuento_%": 10.0,
+      "descuento_aplicado": 7204.7,
+      "total_venta": 64842.3,
+      "total_venta_descuento": 7204.7,
+      "productos": [
+        {
+          "id_producto": "P0023",
+          "nombre": "almendra noin pareil 20/22 x 1kg",
+          "descripcion": "sin descripcion",
+          "precio": 7204.7,
+          "categoria": "alimentos",
+          "proveedor": "buena vida",
+          "fecha": "2023-11-12",
+          "cantidad_disponible": 80,
+          "cantidad_venta": 10
+        }
+      ]
+    },
+    {
+      "id_venta": 9,
+      "id_cliente": "C0046",
+      "nombre_cliente": "gaston bordet",
+      "fecha": "18/01/2024 03:39:25",
+      "descuento_%": 10.0,
+      "descuento_aplicado": 7204.7,
+      "total_venta": 64842.3,
+      "total_venta_descuento": 7204.7,
+      "productos": [
+        {
+          "id_producto": "P0023",
+          "nombre": "almendra noin pareil 20/22 x 1kg",
+          "descripcion": "sin descripcion",
+          "precio": 7204.7,
+          "categoria": "alimentos",
+          "proveedor": "buena vida",
+          "fecha": "2023-11-12",
+          "cantidad_disponible": 70,
+          "cantidad_venta": 10
+        }
+      ]
+    },
+    {
+      "id_venta": 10,
+      "id_cliente": "C0046",
+      "nombre_cliente": "gaston bordet",
+      "fecha": "18/01/2024 22:26:34",
+      "descuento_%": 10.0,
+      "descuento_aplicado": 33695.23,
+      "total_venta": 303257.07,
+      "total_venta_descuento": 33695.23,
+      "productos": [
+        {
+          "id_producto": "P0089",
+          "nombre": "galletitas",
+          "descripcion": "dulce",
+          "precio": 26490.53,
+          "categoria": "surtido",
+          "proveedor": "trio",
+          "fecha": "2023-11-20",
+          "cantidad_disponible": 40,
+          "cantidad_venta": 10
+        },
+        {
+          "id_producto": "P0023",
+          "nombre": "almendra noin pareil 20/22 x 1kg",
+          "descripcion": "sin descripcion",
+          "precio": 7204.7,
+          "categoria": "alimentos",
+          "proveedor": "buena vida",
+          "fecha": "2023-11-12",
+          "cantidad_disponible": 60,
+          "cantidad_venta": 10
+        }
+      ]
+    },
+    {
+      "id_venta": 11,
+      "id_cliente": "C0053",
+      "nombre_cliente": "monica silvana lezcano",
+      "fecha": "18/01/2024 23:58:52",
+      "descuento_%": 0.0,
+      "descuento_aplicado": 0.0,
+      "total_venta": 264905.3,
+      "total_venta_descuento": 0.0,
+      "productos": [
+        {
+          "id_producto": "P0089",
+          "nombre": "galletitas",
+          "descripcion": "dulce",
+          "precio": 26490.53,
+          "categoria": "surtido",
+          "proveedor": "trio",
+          "fecha": "2023-11-20",
+          "cantidad_disponible": 30,
+          "cantidad_venta": 10
+        }
+      ]
+    },
+    {
+      "id_venta": 12,
+      "id_cliente": "C0085",
+      "nombre_cliente": "alfonsina bordet",
+      "fecha": "19/01/2024 00:08:35",
+      "descuento_%": 21.0,
+      "descuento_aplicado": 55630.11,
+      "total_venta": 209275.19,
+      "total_venta_descuento": 55630.11,
+      "productos": [
+        {
+          "id_producto": "P0089",
+          "nombre": "galletitas",
+          "descripcion": "dulce",
+          "precio": 26490.53,
+          "categoria": "surtido",
+          "proveedor": "trio",
+          "fecha": "2023-11-20",
+          "cantidad_disponible": 10,
+          "cantidad_venta": 10
+        }
+      ]
+    }
+  ]
+}

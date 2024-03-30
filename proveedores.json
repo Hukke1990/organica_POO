@@ -1,0 +1,22 @@
+{
+  "proveedores": [
+    {
+      "id_proveedor": "F0013",
+      "nombre": "vida sana",
+      "ciudad": "colon",
+      "direccion": "san martin",
+      "telefono": "+5403447424287",
+      "email": "vidasana@gmail.com",
+      "anotacion": "buenos precios y calidad"
+    },
+    {
+      "id_proveedor": "F0080",
+      "nombre": "saludable",
+      "ciudad": "concepcion del uruguay",
+      "direccion": "combatientes de malvinas 154",
+      "telefono": "+540344215608040",
+      "email": "saludable@gmail.com",
+      "anotacion": "ninguna"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "productos": [
+    {
+      "id_producto": "P0072",
+      "nombre": "pan rustico",
+      "descripcion": "pan multicereal con semillas",
+      "precio": 571.0,
+      "categoria": "pan y arinas",
+      "proveedor": "vida sana",
+      "fecha": "2023-11-12",
+      "cantidad_disponible": 100
+    },
+    {
+      "id_producto": "P0084",
+      "nombre": "nuez mariposa extra light x5kg",
+      "descripcion": "sin despcripcion",
+      "precio": 18804.37,
+      "categoria": "alimentos",
+      "proveedor": "vida sana",
+      "fecha": "2023-11-12",
+      "cantidad_disponible": 100
+    },
+    {
+      "id_producto": "P0052",
+      "nombre": "pan de arina integral",
+      "descripcion": "pan multicereal con semillas de lino",
+      "precio": 571.0,
+      "categoria": "pan y arinas",
+      "proveedor": "vida sana",
+      "fecha": "2023-11-12",
+      "cantidad_disponible": 100
+    },
+    {
+      "id_producto": "P0023",
+      "nombre": "almendra noin pareil 20/22 x 1kg",
+      "descripcion": "sin descripcion",
+      "precio": 7204.7,
+      "categoria": "alimentos",
+      "proveedor": "buena vida",
+      "fecha": "2023-11-12",
+      "cantidad_disponible": 100,
+      "cantidad_venta": 10
+    },
+    {
+      "id_producto": "P0089",
+      "nombre": "galletitas",
+      "descripcion": "dulce",
+      "precio": 26490.53,
+      "categoria": "surtido",
+      "proveedor": "trio",
+      "fecha": "2023-11-20",
+      "cantidad_disponible": 100,
+      "cantidad_venta": 10
+    }
+  ]
+}

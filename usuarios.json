@@ -1,0 +1,18 @@
+{
+    "usuarios": [
+        {
+            "id_usuario": "U0012",
+            "id_rol": "administrador",
+            "nombre_usuario": "admin",
+            "password": "1234",
+            "email": "gastonbordet@gmail.com"
+        },
+        {
+            "id_usuario": "U0017",
+            "id_rol": "usuario",
+            "nombre_usuario": "test",
+            "password": "1234",
+            "email": "test@gmail.com"
+        }
+    ]
+}
