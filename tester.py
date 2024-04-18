@@ -9,9 +9,6 @@ from datetime import datetime
 import platform
 import os
 
-'5013'
-'HOLAAAAA'
-
 
 def current_date_format(date):
     months = ("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
