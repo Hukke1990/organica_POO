@@ -8,7 +8,7 @@
       "categoria": "pan y arinas",
       "proveedor": "vida sana",
       "fecha": "2023-11-12",
-      "cantidad_disponible": 100
+      "cantidad_disponible": 20
     },
     {
       "id_producto": "P0084",
@@ -18,7 +18,7 @@
       "categoria": "alimentos",
       "proveedor": "vida sana",
       "fecha": "2023-11-12",
-      "cantidad_disponible": 100
+      "cantidad_disponible": 19
     },
     {
       "id_producto": "P0052",
@@ -28,7 +28,7 @@
       "categoria": "pan y arinas",
       "proveedor": "vida sana",
       "fecha": "2023-11-12",
-      "cantidad_disponible": 100
+      "cantidad_disponible": 20
     },
     {
       "id_producto": "P0023",

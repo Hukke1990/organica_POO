@@ -13,6 +13,13 @@
             "nombre_usuario": "test",
             "password": "1234",
             "email": "test@gmail.com"
+        },
+        {
+            "id_usuario": "U0059",
+            "id_rol": "usuario",
+            "nombre_usuario": "leo",
+            "password": "1234",
+            "email": "leo@gmail.com"
         }
     ]
 }

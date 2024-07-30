@@ -1,58 +1,58 @@
 {
-  "clientes": [
-    {
-      "id_cliente": "C0046",
-      "nombre": "gaston",
-      "apellido": "bordet",
-      "ciudad": "concepcion del uruguay",
-      "direccion": "artusi 187",
-      "telefono": "+540344215608040",
-      "email": "gastonbordet@gmail.com"
-    },
-    {
-      "id_cliente": "C0053",
-      "nombre": "monica silvana",
-      "apellido": "lezcano",
-      "ciudad": "concepcion del uruguay",
-      "direccion": "artusi 187",
-      "telefono": "+540344215415470",
-      "email": "monicalezcano79@gmail.com"
-    },
-    {
-      "id_cliente": "C0085",
-      "nombre": "alfonsina",
-      "apellido": "bordet",
-      "ciudad": "concepcion del uruguay",
-      "direccion": "artusi 187",
-      "telefono": "+540344215408459",
-      "email": "abordet@gmail.com"
-    },
-    {
-      "id_cliente": "C0036",
-      "nombre": "valentina ines",
-      "apellido": "dominguez lezcano",
-      "ciudad": "concepcion del uruguay",
-      "direccion": "artusi 187",
-      "telefono": "+540344215604070",
-      "email": "vdominguez@gmail.com"
-    },
-    {
-      "id_cliente": "C0011",
-      "nombre": "valentin",
-      "apellido": "bordet",
-      "ciudad": "colon",
-      "direccion": "9 de julio 115",
-      "telefono": "+540344715415470",
-      "email": "vbordet@gmail.com"
-    },
-    {
-      "id_cliente": "C0086",
-      "nombre": "sebastian",
-      "apellido": "bordet",
-      "ciudad": "colon",
-      "direccion": "9 de julio 115",
-      "telefono": "+540344715608040",
-      "email": "sebastianbordet@gmail.com"
-    }
-  ]
+    "clientes": [
+        {
+            "id_cliente": "C0046",
+            "nombre": "gaston",
+            "apellido": "bordet",
+            "ciudad": "concepcion del uruguay",
+            "direccion": "artusi 187",
+            "telefono": "+540344215608040",
+            "email": "gastonbordet@gmail.com"
+        },
+        {
+            "id_cliente": "C0053",
+            "nombre": "monica silvana",
+            "apellido": "lezcano",
+            "ciudad": "concepcion del uruguay",
+            "direccion": "artusi 187",
+            "telefono": "+540344215415470",
+            "email": "monicalezcano79@gmail.com"
+        },
+        {
+            "id_cliente": "C0085",
+            "nombre": "alfonsina",
+            "apellido": "bordet",
+            "ciudad": "concepcion del uruguay",
+            "direccion": "artusi 187",
+            "telefono": "+540344215408459",
+            "email": "abordet@gmail.com"
+        },
+        {
+            "id_cliente": "C0036",
+            "nombre": "valentina ines",
+            "apellido": "dominguez lezcano",
+            "ciudad": "concepcion del uruguay",
+            "direccion": "artusi 187",
+            "telefono": "+540344215604070",
+            "email": "vdominguez@gmail.com"
+        },
+        {
+            "id_cliente": "C0011",
+            "nombre": "valentin",
+            "apellido": "bordet",
+            "ciudad": "colon",
+            "direccion": "9 de julio 115",
+            "telefono": "+540344715415470",
+            "email": "vbordet@gmail.com"
+        },
+        {
+            "id_cliente": "C0086",
+            "nombre": "sebastian",
+            "apellido": "bordet",
+            "ciudad": "colon",
+            "direccion": "9 de julio 115",
+            "telefono": "+540344715608040",
+            "email": "sebastianbordet@gmail.com"
+        }
+    ]
 }

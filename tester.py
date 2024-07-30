@@ -71,11 +71,11 @@ class MenuOrganica:
 
             if opcion.isdigit():
                 if opcion == '1':
-                    self.menuClientes()
+                    self.menuClientes(usuarioActual)
                 elif opcion == '2':
-                    self.menuProductos()
+                    self.menuProductos(usuarioActual)
                 elif opcion == '3':
-                    self.menuProveedores()
+                    self.menuProveedores(usuarioActual)
                 elif opcion == '4':
                     self.menuVentas()
                 elif opcion == '5':
@@ -83,7 +83,7 @@ class MenuOrganica:
                 elif opcion == '6':
                     self.main()
 
-    def menuClientes(self):
+    def menuClientes(self, usuarioActual):
         while True:
             limpiarPantalla()
             print(f'{Fore.CYAN}MENU CLIENTES{Fore.RESET}')
@@ -100,9 +100,9 @@ class MenuOrganica:
             elif opcion == '3':
                 menuCliente.MenuCliente.agregarClientes(self)
             elif opcion == '4':
-                self.menuPrincial()
+                self.menuPrincial(usuarioActual)
 
-    def menuProductos(self):
+    def menuProductos(self, usuarioActual):
         while True:
             limpiarPantalla()
             print(f'{Fore.CYAN}MENU PRODUCTOS{Fore.RESET}')
@@ -122,9 +122,9 @@ class MenuOrganica:
             elif opcion == '4':
                 menuProductos.MenuProductos.modificarPrecio()
             elif opcion == '5':
-                self.menuPrincial()
+                self.menuPrincial(usuarioActual)
 
-    def menuProveedores(self):
+    def menuProveedores(self, usuarioActual):
         while True:
             limpiarPantalla()
             print(f'{Fore.CYAN}MENU PROVEEDORES{Fore.RESET}')
@@ -141,7 +141,7 @@ class MenuOrganica:
             elif opcion == '3':
                 menuProveedores.MenuProveedor.agregarProvedores(self)
             elif opcion == '4':
-                self.menuPrincial()
+                self.menuPrincial(usuarioActual)
 
     def menuVentas(self):
         limpiarPantalla()
