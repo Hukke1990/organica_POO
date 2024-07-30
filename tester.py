@@ -67,7 +67,7 @@ class MenuOrganica:
             print(f'5. Menu Administrador')
             print(f'6. Salir de la cuenta')
 
-            opcion = input(f'Ingrese una opcion: ')
+            opcion = input(f'\nIngrese una opcion: ')
 
             if opcion.isdigit():
                 if opcion == '1':
@@ -194,69 +194,6 @@ class MenuOrganica:
                 elif opcion == '3':
                     self.menuPrincial(usuarioActual)
                     break
-
-    # '''
-    # Agregar productos
-    '''galletitas = productos.Productos('P00011',
-                    'Galletitas Surtidas',
-                    'Galletitas dulces',
-                    440.0, 'Alimentos',
-                    'Vida sana',
-                    '26/06/2023',
-                    24)'''
-
-    '''galletitas = productos.Productos(0, "", "", 0, "", "", "", 0)
-    idProducto = galletitas.establecerIdProducto()
-    nombre = galletitas.establecerNombreProducto()
-    descripcion = galletitas.establecerDescripcionProducto()
-    precio = galletitas.establecerPrecioProducto()
-    categoria = galletitas.establecerCategoriaProducto()
-    proveedor = galletitas.establecerProveedor()
-    fecha = galletitas.establecerFecha()
-    cantidadDisponible = galletitas.establecerCantidadDisponible()
-    #galletitas.establecerFecha()
-
-    galletitas.agregarProductoCompleto(galletitas.obtenerNombreProducto(),
-                                       galletitas.obtenerDescripcionProducto(),
-                                       galletitas.obtenerPrecioProducto(),
-                                       galletitas.obtenerCategoriaProducto(),
-                                       galletitas.obtenerProveedor(),
-                                       galletitas.obtenerFecha(),
-                                       galletitas.obtenerCantidadDisponible())'''
-
-    # Agregar Clientes
-    '''cliente = clientes.Cliente('Monica Silvana',
-                               'Lezcano',
-                               'Concepcion del Uruguay',
-                               'Artusi 187',
-                               '3442608040',
-                               'monicalezcano79@gmail.com')
-    cliente.establecerIdCliente()'''
-
-    '''cliente = clientes.Cliente(0, "", "", "", "", "")
-    idCliente = cliente.establecerIdCliente()
-    nombre = cliente.establecerNombreCliente()
-    apellido = cliente.establecerApellidoCliente()
-    ciudad = cliente.establecerCiudadCliente()
-    direcc = cliente.establecerDireccionCliente()
-    tel = cliente.establecerTelefonoCliente()
-    email = cliente.establecerEmailCliente()
-
-    cliente.agregarClienteCompleto(cliente.obtenerNombreCliente(),
-                                    cliente.obtenerApellidoCliente(),
-                                    cliente.obtenerCiudadCliene(),
-                                    cliente.obtenerDireccionCliente(),
-                                    cliente.obtenerTelefonoCliente(),
-                                    cliente.obtenerEmailCliente())
-
-    
-    
-    
-
-    #Imprimir Datos
-    print(productos.Productos.__str__(galletitas))
-    print(clientes.Cliente.__str__(cliente))'''
-    # '''
 
 
 if __name__ == '__main__':
