@@ -88,7 +88,7 @@ class Proveedores:
         dataProveedores = Proveedores.cargarJson()
         # pide al usuario ingresar el apellido
         buscarProveedor = input(
-            f'Ingrese apellido del cliente, "0" para regresar: ')
+            f'Ingrese nombre del proveedor, "0" para regresar: ')
         if buscarProveedor == "0":
             return
 
@@ -196,6 +196,7 @@ class Proveedores:
                                     proveedor['ciudad'],
                                     proveedor['direccion'],
                                     proveedor['telefono'],
+                                    proveedor['email'],
                                     proveedor['anotacion'])
             proveedoresLista.append(proveedor)
         return proveedoresLista

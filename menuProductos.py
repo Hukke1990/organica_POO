@@ -83,7 +83,7 @@ class MenuProductos:
             else:
                 print(f'Opción invalida. Por favor, ingresa "s" o "n"')
 
-    def buscarProducto(self):
+    def buscarProducto(self, usuarioActual):
         tester.limpiarPantalla()
         print(f'{Fore.CYAN}BUSCAR PRODUCTO{Fore.RESET}')
         productoBuscar = []
@@ -110,7 +110,7 @@ class MenuProductos:
             opcion = input(f'\nEditar producto? S/N: ').lower()
 
             if opcion == 's':
-                MenuProductos.editarProductos(self, productoBuscar)
+                MenuProductos.editarProductos(self, productoBuscar, usuarioActual)
             elif opcion == 'n':
                 return
             else:
@@ -139,7 +139,7 @@ class MenuProductos:
                 print(f'Opción invalida. Por favor, ingresa "s"" o "n"')
             break
 
-    def editarProductos(self, productoBuscar):
+    def editarProductos(self, productoBuscar, usuarioActual):
         camposModificados = []
 
         while True:
@@ -261,7 +261,7 @@ class MenuProductos:
                 input(f'precione ENTER para continuar')
 
             elif opcion == 10:
-                tester.MenuOrganica.menuProductos(self)
+                tester.MenuOrganica.menuProductos(self, usuarioActual)
 
 
 # print(MenuProductos.obtenerControlStock())

@@ -96,9 +96,9 @@ class MenuOrganica:
             if opcion == '1':
                 menuCliente.MenuCliente.verClientes()
             elif opcion == '2':
-                menuCliente.MenuCliente.buscarClientes(self)
+                menuCliente.MenuCliente.buscarClientes(self, usuarioActual)
             elif opcion == '3':
-                menuCliente.MenuCliente.agregarClientes(self)
+                menuCliente.MenuCliente.agregarClientes(self, usuarioActual)
             elif opcion == '4':
                 self.menuPrincial(usuarioActual)
 
@@ -116,7 +116,7 @@ class MenuOrganica:
             if opcion == '1':
                 menuProductos.MenuProductos.verProductos()
             elif opcion == '2':
-                menuProductos.MenuProductos.buscarProducto(self)
+                menuProductos.MenuProductos.buscarProducto(self, usuarioActual)
             elif opcion == '3':
                 menuProductos.MenuProductos.agregarProductos(self)
             elif opcion == '4':
@@ -137,7 +137,7 @@ class MenuOrganica:
             if opcion == '1':
                 menuProveedores.MenuProveedor.verProveedores()
             elif opcion == '2':
-                menuProveedores.MenuProveedor.buscarProveedores(self)
+                menuProveedores.MenuProveedor.buscarProveedores(self, usuarioActual)
             elif opcion == '3':
                 menuProveedores.MenuProveedor.agregarProvedores(self)
             elif opcion == '4':

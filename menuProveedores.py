@@ -66,7 +66,7 @@ class MenuProveedor:
             else:
                 print(f'El numero de telefono no es valido. Intente de nuevo')
 
-    def buscarProveedores(self):
+    def buscarProveedores(self, usuarioActual):
         tester.limpiarPantalla()
         print(f'{Fore.CYAN}BUSCAR PROVEEDOR{Fore.RESET}')
         proveedorBuscar = []
@@ -88,14 +88,14 @@ class MenuProveedor:
                 except TypeError:
                     print(f'Error: {metodos} no es un metodo valido')
 
-        opcion = input(f'\nEditar proveedor? S/N').lower()
+        opcion = input(f'\nEditar proveedor? S/N ').lower()
 
         if opcion == 's':
-            MenuProveedor.editarProveedor(self, proveedorBuscar)
+            MenuProveedor.editarProveedor(self, proveedorBuscar, usuarioActual)
         elif opcion == 'n':
             return
 
-    def editarProveedor(self, proveedorBuscar):
+    def editarProveedor(self, proveedorBuscar, usuarioActual):
         camposModificados = []
 
         while True:
@@ -201,7 +201,7 @@ class MenuProveedor:
                     input(f'precione ENTER para continuar')
 
                 elif opcion == 9:
-                    tester.MenuOrganica.menuProveedores(self)
+                    tester.MenuOrganica.menuProveedores(self, usuarioActual)
 
 
 # print(MenuProveedor.editarProveedor())
