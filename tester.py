@@ -77,7 +77,7 @@ class MenuOrganica:
                 elif opcion == '3':
                     self.menuProveedores(usuarioActual)
                 elif opcion == '4':
-                    self.menuVentas()
+                    self.menuVentas(usuarioActual)
                 elif opcion == '5':
                     self.menuAdministrador(usuarioActual)
                 elif opcion == '6':
@@ -143,7 +143,7 @@ class MenuOrganica:
             elif opcion == '4':
                 self.menuPrincial(usuarioActual)
 
-    def menuVentas(self):
+    def menuVentas(self, usuarioActual):
         limpiarPantalla()
         print(f'{Fore.CYAN}MENU VENTAS{Fore.RESET}')
         print(f'1. Realizar Venta')
@@ -167,7 +167,7 @@ class MenuOrganica:
         elif opcion == '5':
             ventas.Ventas.verProductosMasVendidos(self)
         elif opcion == '6':
-            self.menuPrincial()
+            self.menuPrincial(usuarioActual)
 
     def menuAdministrador(self, usuarioActual):
         if usuarioActual['id_rol'] == "usuario":
